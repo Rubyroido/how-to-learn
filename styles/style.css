@@ -196,11 +196,7 @@
 }
 
 .feynman__title {
-  /*margin: 100 auto 0 auto; (не сработало, пришлось расписывать ниже)*/
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
+  margin: 100px auto 0 auto;
   width: 648px;
   text-align: center;
   line-height: 1.15;
@@ -239,12 +235,12 @@
   position: relative;
 }
 
-.kaufman__title_theme_dark {
+.section-title_theme_dark {
   color: white;
   z-index: 1;
 }
 
-.kaufman__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: white;
   z-index: 1;
 }
@@ -261,6 +257,7 @@
   width: 877px;
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px 877px;
   z-index: 0;
   position: absolute;
   top: 0;
@@ -338,7 +335,8 @@
   padding: 0;
 }
 
-.footer__column-links_style_none {
+.footer__links-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
