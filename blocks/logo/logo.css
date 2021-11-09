@@ -1,3 +1,10 @@
 .logo {
   margin: 0;
+  opacity: 1;
+  transition: opacity 1s linear 0s;
+}
+
+.logo:hover {
+  opacity: 0.6;
+  transition: opacity 1s linear 0s;
 }
