@@ -7,5 +7,4 @@
 
 .footer__column-link:hover {
   opacity: 0.6;
-  transition: opacity 1s linear 0s;
 }
