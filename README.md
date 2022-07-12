@@ -11,6 +11,7 @@
 ## Стек:
 - html
 - css
+- BEM
 - git
 - figma
 
